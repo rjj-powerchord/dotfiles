@@ -27,9 +27,9 @@ I've added some additional enviornment variables found from grep'ing the source 
 My expectation is that one should:
 - copy these file to a local file like:
 ```
-cp ./.template.* > ./private
+cat ./.template.* > ./private
 ```
-- edit the ./private file
-- run the setup.sh which will copy over to ~/.private
--- I've then added a check in my ```.bashrc``` file to souce the private file, if found.
+- edit the ```./private file```
+- run the ```setup.sh``` which will copy over to ```~/.private```
+-- I've then added a check in my ```.bashrc``` file to souce the ```~/.private``` file, if found.
 

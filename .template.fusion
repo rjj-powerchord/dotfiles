@@ -6,7 +6,11 @@ export ADMIN_URL=
 export ALGOLIA_APP_ID=
 export ALGOLIA_API_KEY=
 
+export DD_AGENT_SERVICE_HOST=
+
+export FUSION_BIND_ADDR=:8090
 export FUSION_BUILD=local
+export FUSION_GOOGLE_MAPS_API_KEY=
 export FUSION_ENVIRONMENT=dev
 export FUSION_SPANNER=
 
@@ -20,11 +24,13 @@ export PC6_SESSION_PUBLIC_KEY=
 export PC_BENCH=
 export PC_CST_EMAIL=
 
+export RENDERER_BIND_ADDR=:9876
+
 export SCHEMA_PATH=$GOPATH/src
 export SENDGRID_API_KEY=
 
-RENDERER_BIND_ADDR=:9876
-export FUSION_BIND_ADDR=:8090
+export SLACK_WEBHOOK=
+
 
 export FUS="${GOPATH}/src/github.com/powerchordinc/platform"
 alias fus="cd $FUS"
