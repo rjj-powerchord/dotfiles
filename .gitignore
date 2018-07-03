@@ -1,2 +1,2 @@
 # Ignore private files that I would like to source
-*.private
+*private*

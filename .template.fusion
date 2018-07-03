@@ -1,17 +1,31 @@
+# 2018.07.02 Added some other env var found in code from:
+#	grep 'os.Getenv'
+# Ref: github.com/rjj-powerchord/dotfiles/.template.fusion
+
+export ADMIN_URL=
 export ALGOLIA_APP_ID=
 export ALGOLIA_API_KEY=
-export FUSION_ENVIRONMENT=dev
-export GCE_PROJECT_ID=
-export HOSTNAME=agreenlee
-export FUSION_BUILD=local
 
-export PC6_SESSION_PUBLIC_KEY=
+export FUSION_BUILD=local
+export FUSION_ENVIRONMENT=dev
+export FUSION_SPANNER=
+
+export GCE_PROJECT_ID="powerchord-dx"
+
+export HOSTNAME=
 
 export PC6_SESSION_PRIVATE_KEY=
-RENDERER_BIND_ADDR=:9876
-export SCHEMA_PATH=$GOPATH/src
-export FUSION_BIND_ADDR=:8090
-export FUS=/Users/aarongreenlee/go/src/github.com/powerchordinc/platform
-alias fus="cd $FUS"
+export PC6_SESSION_PUBLIC_KEY=
+
+export PC_BENCH=
+export PC_CST_EMAIL=
 
 export SCHEMA_PATH=$GOPATH/src
+export SENDGRID_API_KEY=
+
+RENDERER_BIND_ADDR=:9876
+export FUSION_BIND_ADDR=:8090
+
+export FUS="${GOPATH}/src/github.com/powerchordinc/platform"
+alias fus="cd $FUS"
+
